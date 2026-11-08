@@ -82,13 +82,13 @@ Instala los componentes de Python y entra en la carpeta del repositorio:
 ```bash
 sudo apt update
 sudo apt install -y python3 python3-venv python3-pip
-git clone https://github.com/TU_USUARIO/Minecraft-server-local.git
+git clone https://github.com/Vapesitoh/Minecraft-server-local.git
 cd Minecraft-server-local
 chmod +x iniciar_linux.sh
 ./iniciar_linux.sh
 ```
 
-**Sustituye `TU_USUARIO` por el propietario real de tu repositorio de GitHub.** Si descargaste un ZIP en lugar de clonar el repositorio, entra directamente en la carpeta extraída y ejecuta los dos últimos comandos.
+**Sustituye `TU_Vapesitoh` por el propietario real de tu repositorio de GitHub.** Si descargaste un ZIP en lugar de clonar el repositorio, entra directamente en la carpeta extraída y ejecuta los dos últimos comandos.
 
 Para instalar, por ejemplo, Java 21 en Ubuntu:
 
@@ -110,7 +110,7 @@ Esta es **solo una opción de instalación**: selecciona el Java que necesite tu
 6. Si aparece el acuerdo de licencia de Minecraft (**EULA**), consulta el enlace oficial, escribe literalmente **`true`** y confirma **solo si aceptas sus términos**.
 7. Comprueba el arranque en **Consola**. Cuando el servidor termine de cargar, podrás introducir comandos como `list`, `say`, `save-all` o `stop`.
 
-> La aceptación de la EULA es un paso manual y explícito. La aplicación no debe aceptarla automáticamente en nombre del usuario.
+> La aceptación de la EULA es un paso manual y explícito. La aplicación no debe aceptarla automáticamente en nombre del Vapesitoh.
 
 ## 🧩 Plataformas y archivos admitidos
 
@@ -205,7 +205,7 @@ En el entorno donde se preparó **v1.1.1** se registraron **25 pruebas aprobadas
 
 ## 🔒 Seguridad y limitaciones
 
-- **Revisa los archivos antes de importarlos.** Los scripts de inicio `.bat`, `.cmd` y `.sh` proporcionados por terceros pueden ejecutar código con tus permisos de usuario.
+- **Revisa los archivos antes de importarlos.** Los scripts de inicio `.bat`, `.cmd` y `.sh` proporcionados por terceros pueden ejecutar código con tus permisos de Vapesitoh.
 - Los ZIP importados se validan para rechazar rutas peligrosas y enlaces simbólicos y limitar el tamaño extraído. Aun así, utiliza paquetes de procedencia confiable.
 - Eliminar archivos desde el explorador intenta enviarlos a la papelera del sistema cuando está disponible.
 - La aplicación **no configura automáticamente el firewall, redireccionamiento de puertos, CGNAT ni túneles**. Para que jugadores externos se conecten necesitarás configurar la red por separado.
