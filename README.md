@@ -233,7 +233,7 @@ El código de este repositorio se rige por el archivo `LICENSE` **si el propieta
 
 **BlockServer GUI es un proyecto independiente**: no está afiliado ni respaldado por Mojang Studios o Microsoft. Minecraft y sus marcas corresponden a sus titulares. Consulta la [EULA oficial de Minecraft](https://www.minecraft.net/eula).
 
-**Desarrollo:** proyecto mantenido por el propietario del repositorio, con asistencia de herramientas de inteligencia artificial en su elaboración.
+**Desarrollo:** proyecto mantenido por el propietario del repositorio - imagenes usadas bajo licencia de IA.
 
 ---
 
