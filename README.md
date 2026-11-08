@@ -88,8 +88,6 @@ chmod +x iniciar_linux.sh
 ./iniciar_linux.sh
 ```
 
-**Sustituye `Vapesitoh` por el propietario real de tu repositorio de GitHub.** Si descargaste un ZIP en lugar de clonar el repositorio, entra directamente en la carpeta extraída y ejecuta los dos últimos comandos.
-
 Para instalar, por ejemplo, Java 21 en Ubuntu:
 
 ```bash
