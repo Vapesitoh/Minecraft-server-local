@@ -37,9 +37,14 @@ Funciona en tu computadora: **no es un servicio de alojamiento ni un panel web**
 
 ### ☕ Detección automática de Java
 
+
 Al abrir el programa, se buscan las instalaciones de Java disponibles en el equipo. Se revisan `JAVA_HOME`, `JDK_HOME`, `PATH`, carpetas habituales y, en Windows, entradas del Registro. La interfaz muestra la **versión y arquitectura** detectadas (32 o 64 bits), permite seleccionar una instalación manualmente y dispone de un botón **Buscar Java** para repetir el análisis.
 
 El modo automático intenta elegir un Java de 64 bits que cumpla los requisitos de versión conocidos del servidor. **El programa detecta Java, pero no lo instala.** La versión de Java necesaria depende de la versión y la plataforma de Minecraft que utilices.
+
+### ☕ En caso de no tener JAVA JDK para correr el programa descargalo aqui:
+
+https://adoptium.net/es
 
 ### 🖱️ Protección de los campos numéricos
 
