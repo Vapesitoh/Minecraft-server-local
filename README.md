@@ -176,8 +176,6 @@ Minecraft-server-local/
 ├── iniciar_windows.bat            # Arranque en Windows
 ├── iniciar_linux.sh               # Arranque en Linux
 ├── crear_exe_windows.bat          # Compilación opcional de EXE en Windows
-├── LEEME_PRIMERO.md               # Guía de uso más detallada
-└── README.md                      # Este documento
 ```
 
 ## 📦 Crear un ejecutable `.exe` en Windows
@@ -188,8 +186,6 @@ En un equipo **Windows** con Python instalado, ejecuta:
 crear_exe_windows.bat
 ```
 
-Este script utiliza **PyInstaller** y genera el ejecutable en `dist/BlockServerGUI.exe` si la compilación termina correctamente. **El archivo `.exe` no incluye Java**: el equipo donde se ejecute debe disponer de una instalación compatible con el servidor.
-
 ## 🧪 Pruebas
 
 Instala las dependencias de pruebas y ejecuta:
@@ -199,18 +195,6 @@ python -m pip install pytest
 python -m pytest -q
 ```
 
-En el entorno donde se preparó **v1.1.1** se registraron **25 pruebas aprobadas y 1 omitida**. La prueba gráfica de los controles numéricos quedó omitida por no disponer allí de PySide6/QtAwesome. **No se ha confirmado en ese entorno una ejecución gráfica completa ni el arranque de un servidor real**. Comprueba estas funciones en tu computadora antes de publicar una versión estable.
-
-## 🔒 Seguridad y limitaciones
-
-- **Revisa los archivos antes de importarlos.** Los scripts de inicio `.bat`, `.cmd` y `.sh` proporcionados por terceros pueden ejecutar código con tus permisos de Vapesitoh.
-- Los ZIP importados se validan para rechazar rutas peligrosas y enlaces simbólicos y limitar el tamaño extraído. Aun así, utiliza paquetes de procedencia confiable.
-- Eliminar archivos desde el explorador intenta enviarlos a la papelera del sistema cuando está disponible.
-- La aplicación **no configura automáticamente el firewall, redireccionamiento de puertos, CGNAT ni túneles**. Para que jugadores externos se conecten necesitarás configurar la red por separado.
-- El contador de jugadores se estima a partir de los mensajes del servidor y puede variar con plugins que alteren los logs.
-- Algunos servidores modificados necesitan instaladores adicionales o scripts especiales.
-- Los archivos y mundos permanecen localmente; únicamente las consultas del catálogo y descargas de Vanilla requieren comunicarse con servicios externos.
-- No subas al repositorio mundos privados, credenciales, respaldos, configuraciones personales ni el entorno virtual `.venv`.
 
 ## 🛠️ Tecnologías
 
